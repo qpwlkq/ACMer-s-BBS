@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HomePage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+    function change() {
+        console.getElementById("aaa").color='black'
+
+
+
+       // if(bg=='black'){
+         //   oDiv.body.backgroundColor='white'
+        //}else if(bg=='blue'){
+          //  oDiv.style.backgroundColor='yellow';
+        //}else{
+           // oDiv.style.backgroundColor='red';
+        //}
+    }
+</script>
+    <style type="text/css">
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: red;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+        .button:active{
+            background-color: yellow;
+        }
+        body,td,th {
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            font-family: Consolas;
+            text-align:center
+        }
+        #centtt{
+            text-align: center
+        }
+        body {
+            background-color: black;
+        }
+        a:link {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        a:visited {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #000000;
+        }
+        a:active {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body id="aaa">
+<script type="text/javascript" color="255,255,255" opacity='1' zIndex="-2" count="120" src="../js/1.js"></script>
+<table width="100%" border="0" align="center" cellpadding="0">
+    <butten class="button" style="vertical-align:middle" onclick="change()"><span>明亮模式</span></butten>
+    <tbody>
+    <tr>
+        <td height="269" id="centtt" ><h2><strong>HOMEPAGE</strong></h2></td>
+    </tr>
+    <tr>
+        <td height="605" id="centtt"><p>导航栏</p>
+            <p>________________________________        </p>
+            <p><a href="建站思路.html">console.log("建站思路");</a></p>
+            <p><a href="算法导图.html">cout &lt;&lt; &quot;算法导图&quot; &lt;&lt; endl;</a></p>
+            <p><a href="数据结构.html">puts(&quot;数据结构&quot;);</a></p>
+            <p><a href="动态规划.html">Console.WriteLine("动态规划");</a></p>
+            <p><a href="数论.html">printf(&quot;数论&quot;);</a></p>
+            <p><a href="图论.html">var_dump('图论');</a></p>
+            <p><a href="搜索.html">print(&quot;搜索&quot;);</a></p>
+            <p><a href="博弈论.html">fmt.Println("博弈论");</a></p>
+            <p><a href="计算几何.html">echo "计算几何"</a></p>
+            <p><a href="组合数学.html">System.out.print(&quot;组合数学&quot;);</a></p>
+            <p>________________________________      </p>
+            <p>&nbsp;</p>
+            <p>&gt;_&lt;</p>
+            <p>&nbsp;</p>
+            <p><img src="../pic/3-3.png" width="1400" height="202"zIndex="-10" ></p>
+            <p>&nbsp;</p></td>
+
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

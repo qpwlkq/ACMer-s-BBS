@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <style type="text/css">
+        .div1 { font-size: 30px; color: yellow }
+        .div1:hover { font-size: 35px; color: white }
+        body,td,th {
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            font-family: Consolas;
+        }
+        #centtt{
+            text-align: center
+        }
+
+        body {
+            background-color: #000000;
+            background-image: url(../pic/02.jpg);
+            background-repeat: repeat;
+        }
+
+        #centtt {
+            text-align: center;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #000000;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+        #centtt {
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* 链接 - 修改颜色 */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .dropdown button {
+            background-color: black;
+            color: white;
+            font-size: 36px;
+            font-family: Consolas;
+            border: none;
+            cursor: pointer;
+            display: block;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 60px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 5px 8px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .topnav {
+
+            background-color:black;
+            color: white;
+    </style>
+</head>
+
+<body>
+<div class="topnav">
+    <a href="首页2.html">HomePage</a>
+    <a href="建站思路.html">建站思路</a>
+    <a href="算法导图.html">算法导图</a>
+    <div class="dropdown" style="float: right">
+        <button class="topnav"><a>登录</a></button>
+        <div class="dropdown-content">
+            <a>登录</a>
+            <a>注册</a>
+        </div>
+    </div>
+</div>
+<p>
+  <script type="text/javascript" color="255,255,255" opacity='1' zIndex="-2" count="120" src="../js/1.js"></script>
+</p>
+<table width="1580" border="0" align="center" cellpadding="0">
+    <tbody>
+    <tr>
+        <td height="316" colspan="3" ><h1 id="centtt">计算几何</h1></td>
+    </tr>
+    <tr>
+        <td width="215" rowspan="6"> &gt;_&lt;</td>
+        <td height="99">What is Computational geometry?</td>
+        <td width="200" rowspan="6">&gt;_&lt;</td>
+    </tr>
+    <tr>
+        <td height="302">计算几何研究的对象是几何图形。早期人们对于图像的研究一般都是先建立坐标系，把图形转换成函数，然后用插值和逼近的数学方法，特别是用样条函数作为工具来分析图形，取得了可喜的成功。然而，这些方法过多地依赖于坐标系的选取，缺乏几何不变性，特别是用来解决某些大挠度曲线及曲线的奇异点等问题时，有一定的局限性。</td>
+    </tr>
+    <tr>
+        <td height="303">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="81">计算几何!</td>
+    </tr>
+    <tr>
+        <td width="1157" height="4751"><p>&nbsp;</p>
+            <p>1 前言</p>
+            <p>1.1 计算几何算法</p>
+            <p>1.2 计算几何题目特点及要领</p>
+            <p>1.3 预备知识</p>
+            <p>&nbsp;</p>
+            <p>2 凸包</p>
+            <p>2.1 定义</p>
+            <p>2.1.1 凸多边形</p>
+            <p>2.1.2 凸包</p>
+            <p>2.2 颜料配色问题</p>
+            <p>2.2.1 问题描述</p>
+            <p>2.2.2 问题简化</p>
+            <p>2.2.3 问题抽象</p>
+            <p>2.2.4 数学抽象</p>
+            <p>2.2.4.1 Convex Combination And Affine Combination</p>
+            <p>2.2.4.2 区别与联系</p>
+            <p>2.3 构造凸包的初步尝试</p>
+            <p>2.3.1 转化思想</p>
+            <p>2.3.2 极性 Extremity</p>
+            <p>2.3.3 基于极点的凸包构造算法</p>
+            <p>2.3.4 基于极边的凸包构造算法</p>
+            <p>2.3.4.1 极边</p>
+            <p>2.3.4.2 尝试实现</p>
+            <p>2.4 更进一步</p>
+            <p>2.4.1 减而治之</p>
+            <p>2.4.2 转向形式</p>
+            <p>2.4.3 优点与劣势</p>
+            <p>2.5 求解凸包的高效算法</p>
+            <p>2.5.1 Jarvis March的步进算法</p>
+            <p>2.5.1.1 思路分析</p>
+            <p>2.5.1.2 时间复杂度</p>
+            <p>2.5.1.3 注意</p>
+            <p>2.5.2 Graham Scan</p>
+            <p>2.5.2.1 预处理</p>
+            <p>2.5.2.2 具体步骤</p>
+            <p>2.5.2.3 时间复杂度</p>
+            <p>2.5.2.4 代码实现</p>
+            <p>2.5.3 Andrew算法</p>
+            <p>2.5.3.1 由来</p>
+            <p>2.5.3.2 预处理</p>
+            <p>2.5.3.3 算法步骤</p>
+            <p>2.5.3.4 时间复杂度</p>
+            <p>2.5.3.5 代码实现</p>
+            <p>2.5.4 分治法求解凸包</p>
+            <p>2.5.5 Melkman算法</p>
+            <p>&nbsp;</p>
+            <p>3 离散化</p>
+            <p>3.1 概述</p>
+            <p>3.2 基本思想</p>
+            <p>3.3 例题：区域的个数</p>
+            <p>3.3.1 题目描述</p>
+            <p>3.3.2 思路分析</p>
+            <p>3.3.3 代码实现</p>
+            <p>4 扫描线法（平面扫描）</p>
+            <p>4.1 描述</p>
+            <p>4.2 例题：矩形面积并</p>
+            <p>4.2.1 题目描述</p>
+            <p>4.2.2 思路分析</p>
+            <p>4.3 寻找平面线段交点O(nlogn)</p>
+            <p>&nbsp;</p>
+            <p>5 半平面交</p>
+            <p>5.1 描述</p>
+            <p>5.2 有向线段</p>
+            <p>5.3 半平面交的结果</p>
+            <p>5.4 计算方法</p>
+            <p>5.4.1 增量法</p>
+            <p>5.4.2 切割方法</p>
+            <p>5.4.3 时间复杂度</p>
+
+
+
+            <p>5.4.4 代码实现</p>
+            <p>&nbsp;</p>
+            <p>6 分治法解决平面最近点对（O(nlogn)</p>
+            <p>&nbsp;</p>
+            <p>7 旋转卡壳（O(nlogn)解决平面最远点对）</p>
+            <p>&nbsp;</p>
+            <p>8 三点确定外接圆圆心坐标</p>
+            <p>&nbsp;</p>
+            <p><br>
+            </p></td>
+    </tr>
+    <tr>
+        <td height="302"><a href="首页2.html" id="centtt" class="div1">return Homepage;</a></td>
+    </tr>
+    <td>&nbsp;</td>
+    </tbody>
+</table>
+</body>
+</html>

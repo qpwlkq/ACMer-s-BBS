@@ -1,0 +1,236 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/style.css" media="screen" type="text/css" />
+    <style type="text/css">
+        div.img1 {
+             margin: 5px;
+             border: 1px solid #ccc;
+             float: left;
+             width: 500px;
+         }
+        div.img2 {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 500px;
+        }
+        div.img1:hover {
+            transform: translate3d(20px,0,10px);
+            border: 1px solid #777;
+        }
+        div.img2:hover {
+            transform: translate3d(-20px,0,10px);
+            border: 1px solid #777;
+        }
+
+        div.img1 img {
+            width: 100%;
+            height: auto;
+        }
+        div.img2 img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    #container {
+    width: 3500px;
+    height: 1664px;
+    overflow: hidden;
+    }
+
+    #photo {
+    width: 10500px;
+    animation: switch 5s ease-out infinite;
+    }
+
+    #photo > img {
+    float: left;
+    width: 3500px;
+    height: 1664px;
+    }
+
+    @keyframes switch {
+        0%, 25% {
+            margin-left: 0;
+        }
+        35%, 60% {
+            margin-left: -3500px;
+        }
+        70%, 100% {
+            margin-left: -7000px;
+        }
+    }
+        #header{
+     font-size: 100px;
+            margin: auto;
+            text-align:center;
+        }
+        #list{
+
+            width: 4000px;
+            height:1320px;
+            box-sizing: border-box;
+        }
+        .root{
+            width:500px;
+            box-sizing: border-box;
+        }
+        .responsive1 {
+            position:relative;
+
+            padding:  0px;
+
+            box-sizing: border-box;
+        }
+        .responsive2 {
+           position :absolute;
+            left :4100px;
+            box-sizing: border-box;
+        }
+
+        #mid{
+            box-sizing: border-box;
+            position: absolute;
+            left:560px;
+            width:1000px;
+            height: 1664px;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript" color="5,255,255" opacity='3' zIndex="-2" count="120" src="../js/1.js"></script>
+<div id="header">首页</div>
+<table border="5px solid red">
+<div id="list" >
+    <div class="responsive1">
+        <div class="root">
+        <div class="img1">
+            <a target="_blank" href="算法导图.html">
+                <img src="../图片/1.jpg"alt="图片文本描述" width="50" height="40">
+            </a>
+            <div class="desc">算法导图</div>
+        </div>
+        </div>
+
+        <div class="root">
+        <div class="img1">
+            <a target="_blank" href="组合数学.html">
+                <img src="../图片/2.jpg" alt="图片文本描述" width="50" height="40">
+            </a>
+            <div class="desc">组合数学</div>
+        </div>
+        </div>
+
+        <div class="root">
+        <div class="img1">
+            <a target="_blank" href="动态规划.html">
+                <img src="../图片/3.jpg"alt="图片文本描述" width="50" height="40">
+            </a>
+            <div class="desc">动态规划</div>
+        </div>
+        </div>
+
+        <div class="root">
+            <div class="img1">
+                <a target="_blank" href="图论.html">
+                    <img src="../图片/4.jpg" alt="图片文本描述" width="50" height="40">
+                </a>
+                <div class="desc">图论</div>
+            </div>
+        </div>
+    </div>
+<div id="mid">
+    <div id="container">
+    <div id="photo">
+        <img src="../图片/x3.png" />
+        <img src="../图片/x2.jpg"/>
+        <img src="../图片/x1.jpg" />
+    </div>
+</div>
+</div>
+    <div class="responsive2">
+    <div class="root">
+        <div class="img2">
+            <a target="_blank" href="数据结构.html">
+                <img src="../图片/5.jpg" alt="图片文本描述" width="50" height="40">
+            </a>
+            <div class="desc">数据结构</div>
+        </div>
+    </div>
+
+        <div class="root">
+        <div class="img2">
+            <a target="_blank" href="计算几何.html">
+                <img src="../图片/6.jpg" alt="图片文本描述" width="50" height="40">
+            </a>
+            <div class="desc">计算几何</div>
+        </div>
+        </div>
+
+        <div class="root">
+        <div class="img2">
+            <a target="_blank" href="博弈论.html">
+                <img src="../图片/7.jpeg" alt="图片文本描述" width="50" height="40">
+            </a>
+            <div class="desc">博弈论</div>
+        </div>
+        </div>
+
+        <div class="root">
+            <div class="img2">
+                <a target="_blank" href="数论.html">
+                    <img src="../图片/8.jpg" alt="图片文本描述" width="50" height="40">
+                </a>
+                <div class="desc">数论</div>
+            </div>
+        </div>
+</div>
+</div>
+</table>
+<table width="100%" border="0" align="center" cellpadding="0">
+    <img alt=""  src="../pic/13803872e04a21de89204926f5019df5.gif" style="z-index: -99999;min-width: 100%;min-height: 100%;right: 0;bottom: 0;width: auto;height: auto;position: fixed;">
+
+</table> 
+
+
+    <!--<tbody >
+
+
+
+    <tr>
+        <td height="269" id="centtt" ><h2><strong>HOMEPAGE</strong></h2></td>
+    </tr>
+    <tr>
+        <td height="605" id="centtt" ><p>导航栏</p>
+            <p>________________________________        </p>
+            <p><a class="div1" href="建站思路.html">console.log("建站思路");</a></p>
+                <p><a class="div1" href="算法导图.html">cout &lt;&lt; &quot;算法导图&quot; &lt;&lt; endl;</a></p>
+                <p><a  class="div1" href="数据结构.html">puts(&quot;数据结构&quot;);</a></p>
+                 <p><a class="div1" href="动态规划.html">Console.WriteLine("动态规划");</a></p>
+                <p><a class="div1" href="数论.html">printf(&quot;数论&quot;);</a></p>
+                 <p><a class="div1" href="图论.html">var_dump('图论');</a></p>
+                 <p><a class="div1" href="搜索.html">print(&quot;搜索&quot;);</a></p>
+                 <p><a class="div1" href="博弈论.html">fmt.Println("博弈论");</a></p>
+                <p><a class="div1" href="计算几何.html">echo "计算几何"</a></p>
+                <p><a class="div1" href="组合数学.html">System.out.print(&quot;组合数学&quot;);</a></p>
+
+            <p>________________________________      </p>
+            <p>&nbsp;</p>
+            <p>&gt;_&lt;</p>
+            <p>&nbsp;</p>
+            <p> </p>
+
+            <p>&nbsp;</p>
+        </td>
+    </tr>
+    </tbody>
+</table><-->
+</body>
+</html>
